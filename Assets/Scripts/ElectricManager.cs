@@ -23,7 +23,7 @@ public class ElectricManager : MonoBehaviour
 
         connections[interactor.name] = wire;
 
-        UpdateDebugText();
+        // UpdateDebugText();
     }
 
     public void Disconnect(SelectExitEventArgs args)
@@ -35,7 +35,7 @@ public class ElectricManager : MonoBehaviour
 
         connections.Remove(interactor.name);
 
-        UpdateDebugText();
+        // UpdateDebugText();
     }
 
     private void UpdateDebugText()
